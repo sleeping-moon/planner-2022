@@ -1,0 +1,298 @@
+
+
+
+.MyInput{
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-family: inherit;
+    border: 0;
+    padding-left: 2%;
+    color: #282d4d;
+}
+.MyInput:focus{
+    background: #FFFFFF;
+    font-family: inherit;
+    border: 0;
+    outline:none;
+}
+
+.mainframe{
+    margin-left: 15%;
+    padding: 5%;
+}
+.SideBar{
+    position: fixed;
+    height: 100%;
+    background: #4A538B;
+    width: 15%;
+}
+.Form{
+    width: 85%;
+    margin: 0 auto;
+    background: #e9e8e8;
+    border-radius:15px;
+    padding: 15px;
+}
+.MyGrid{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-column-gap: 5%;
+    grid-row-gap: 15%;
+}
+.FrontWhite{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.FrontPink{
+    font-style: normal;
+    font-size: 24px;
+    color: #FF9A8D;
+    text-align: center;
+}
+
+.FrontBlue{
+    font-style: normal;
+    color: #4A538B;
+}
+.SideBar a{
+    font-style: normal;
+    font-size: 22px;
+    color: #E5E5E5;
+    line-height: 24px;
+    text-decoration: none;
+    display: block;
+    padding: 11px 30px;
+}
+.SideBar a:hover{
+    background: linear-gradient(to right, rgba(174, 214, 220, 0.89), rgba(174, 214, 220, 0));
+    color: #ffffff;
+}
+
+.ProfilePhoto{
+    width: 110px; height:110px;
+    border-radius: 50%;
+    padding: 84px 50px 31px 50px;
+}
+.Title{
+    padding: 0px 0px 0px 10px;
+}
+.Header{
+    height: 60px;
+    background: #AED6DC;
+    display: flex;
+}
+.Headerpos{
+    margin-left: 15%;
+}
+.ExitButton{
+    background: #C4C4C4;
+    border-radius: 15px;
+    color: #4A538B;
+    width: 65%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-weight:bold;
+}
+.SubmitButton{
+    background: #AED6DC;
+    border-radius: 15px;
+    width: 50%;
+    color: #4A538B;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    font-weight:bold;
+}
+.ResetButton {
+    background: #FF9A8D;
+    border-radius: 15px;
+    width: 50%;
+    color: #4A538B;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    font-weight:bold;
+}
+
+.MiniProfile{
+    border-color: #C4C4C4;
+    border-radius: 15px;
+}
+
+.AddTaskButton{
+    background: #97D7AA;
+    border-radius: 15px;
+    width: 60%;
+    border: none;
+    outline: none;
+    color: #4A538B;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+.ViewTaskButton{
+    background: #AED6DC;
+    border-radius: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+    color: #4A538B;
+    font-size: 18px;
+    font-weight:bold;
+}
+.LogoandName{
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: 95% 5%;
+    grid-column-gap: 2%;
+}
+.DeleteUserFromGroup{
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#Popupwindow{
+    background: #d5d4d4;
+    border-radius:15px;
+    padding: 15px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+#Popupwindow:target {display: block;}
+
+.close {
+    display: inline-block;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    cursor:pointer;
+    background: #FF9A8D;
+    color: #4A538B;
+    border-radius: 15px;
+}
+
+.Label{
+    color: #4A538B;
+    border-radius: 15px;
+    width: 70%;
+    align-content: center;
+    border: none;
+    outline: none;
+}
+
+.ButtonGrid{
+    display: grid;
+    grid-template-columns: 37% 53%;
+    grid-column-gap: 10%;
+    grid-row-gap: 45px;
+}
+
+.look-calendar {
+    width:80%;
+    padding:6px;
+    margin: 0 auto;
+}
+#calendar {
+    width: 100%;
+    line-height: 1.2em;
+    font-size: 28px;
+    text-align: center;
+    border-spacing:0px;
+}
+#calendar tr.dn td {
+    font-size: 28px;
+}
+#calendar thead tr:last-child {
+    font-size: small;
+    color: #4A538B;
+}
+#calendar thead tr:nth-child(1) td:nth-child(2) {
+    color: #4A538B;
+}
+#calendar thead tr:nth-child(1) td:nth-child(1):hover,
+#calendar thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+}
+#calendar tbody td {
+    color: #4A538B;
+}
+#calendar tbody td:nth-child(n+6),
+#calendar .holiday {
+    color: #FF9A8D;
+}
+#calendar tbody td.today {
+    border-radius: 15px;
+    background: #d5d4d4;
+    color: #FF9A8D;
+}
+
+.CartGrid{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-column-gap: 4%;
+    grid-row-gap: 10%;
+}
+
+.ThreeElementsGrid{
+    display: grid;
+    grid-template-columns: 30% 30% 36%;
+    grid-column-gap: 0%;
+}
+
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#okno {
+    width: 40%;
+    height: 70%;
+    text-align: center;
+    padding: 3%;
+    border-radius: 15px;
+    color: #4A538B;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #d5d4d4;
+}
+#zatemnenie:target {display: block;}
+.close {
+    display: inline-block;
+    color: #4A538B;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #d5d4d4;
+    font-size: 14pt;
+    cursor:pointer;
+}
+
+.GroupGrid{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-column-gap: 10%;
+    grid-row-gap: 45px;
+}
+
+.GroupSelection :hover{
+    color: #FF9A8D;
+    cursor: pointer;
+}
